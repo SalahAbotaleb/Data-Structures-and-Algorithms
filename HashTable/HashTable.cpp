@@ -151,17 +151,17 @@ public:
 
 };
 
-int main() {
-    HashTable table(13);
-    cout<<table.isFound(5)<<endl;
-    table.insert(5);
-    cout<<table.isFound(5)<<endl;
-    table.insert(13*5);
-    table.insert(13*13*5);
-    cout<<table.isFound(13*5)<<endl;
-    cout<<table.isFound(13*13*5)<<endl;
-    cout<<table.remove(13*5)<<endl;
-    cout<<table.isFound(13*5)<<endl;
-    cout<<table.isFound(13*13*5)<<endl;
-    return 0;
-}
+//int main() {
+//    HashTable table(13);
+//    cout<<table.isFound(5)<<endl;
+//    table.insert(5);
+//    cout<<table.isFound(5)<<endl;
+//    table.insert(13*5);
+//    table.insert(13*13*5);
+//    cout<<table.isFound(13*5)<<endl;
+//    cout<<table.isFound(13*13*5)<<endl;
+//    cout<<table.remove(13*5)<<endl;
+//    cout<<table.isFound(13*5)<<endl;
+//    cout<<table.isFound(13*13*5)<<endl;
+//    return 0;
+//}
